@@ -1,1 +1,7 @@
-# myproject
+name: Greeter
+on: [push]
+jobs:
+  runs-on: ubuntu-latest
+  steps:
+  - name: say-hello
+  - run: echo "Hello"
