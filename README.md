@@ -1,7 +1,23 @@
-name: Greeter
-on: [push]
-jobs:
-  runs-on: ubuntu-latest
-  steps:
-  - name: say-hello
-  - run: echo "Hello"
+# 🚀 Sample Project
+
+Welcome to my **Sample Project**!  
+This project demonstrates basic Markdown formatting for a GitHub README.
+
+---
+
+## 📋 Features
+- Easy to read
+- Clean and simple layout
+- Includes code examples
+
+---
+
+## 💻 Code Example
+
+Here’s a simple Python example:
+
+```python
+def greet(name):
+    print(f"Hello, {name}!")
+
+greet("World")
